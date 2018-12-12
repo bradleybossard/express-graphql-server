@@ -2,17 +2,21 @@
   "name": "express-graphql-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
+    "serve": "node server.js",
+    "client": "node client.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Bradley Bossard <bradleybossard@gmail.com> (http://bradleybossard.com/)",
   "license": "MIT",
   "dependencies": {
+    "es6-promise": "4.2.5",
     "express": "4.16.4",
     "express-graphql": "0.7.1",
-    "graphql": "14.0.2"
+    "fetch": "1.1.0",
+    "graphql": "14.0.2",
+    "isomorphic-fetch": "2.2.1"
   }
 }
